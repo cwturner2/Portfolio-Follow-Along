@@ -2,6 +2,7 @@
   font-size: 18px
 }
 
+/* Header Styles */
 header {
   display:flex;
 }
@@ -41,6 +42,9 @@ nav ul.menu {
 nav:hover ul {
   display:block;
 }
+/* end of Header styles */
+
+/* Main content style */
 
 main {
   min-height:200px;
@@ -83,7 +87,7 @@ footer {
   .aboutMe {
     flex:1;
   }
-
+/* Footer styles */
   footer {
     background-color: red;
     display: flex;
@@ -98,3 +102,5 @@ footer {
     text-align: right;
   }
 }
+
+/* end of Footer styles */
