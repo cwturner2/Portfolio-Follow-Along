@@ -1,5 +1,5 @@
 * {
-  font-size: 17px
+  font-size: 18px
 }
 
 header {
@@ -11,7 +11,7 @@ header {
 }
 
 .logoImage img {
-  width:100%;
+  width:20%;
 }
 
 .name {
@@ -25,7 +25,8 @@ nav {
 }
 
 .navButton {
-  text-align: right;
+  flex-grow:1;
+  text-align:right;
 }
 
 nav ul.menu {

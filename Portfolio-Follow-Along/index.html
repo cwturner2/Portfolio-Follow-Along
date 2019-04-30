@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Wireframe to HTML</title>
+    <title>Portfolio Follow Along</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.mystyle.css"
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css"
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    </head>
 
   <body>
     <header>
+      <div class"logo">
+        <div class="logoImage">
+          <img src="images/logo.png" alt="logo image" />
+        </div>
+      </div>
       <div class="name">
         Chris Turner
       </div>
       <nav onclick='$(".menu").toggle();'>
         <div class+"navButton">
-          &#9776;
+          &#9776; <!-- Results in ☰ -->
         </div>
-        <ul class+"menu" style+"display:none">
+        <ul class+"menu" style="display:none">
           <li>home</li>
           <li>gallery</li>
           <li>resume</li>
@@ -25,7 +36,7 @@
 
 <main>
   <section>
-    <div class+"profileImage">
+    <div class="profileImage">
       <img src="images/LeBronAllYellow copy.jpg" alt="Profile Image for Chris Turner"
     </div>
     <div class="aboutMe">
