@@ -9,10 +9,11 @@ header {
 
 .logo {
   flex:1;
+  max-width: 40px;
 }
 
 .logoImage img {
-  width:20%;
+  width:100%;
 }
 
 .name {
@@ -68,9 +69,8 @@ footer {
   padding: 0 .5rem;
 }
 
-@media screen and (min-width: 600px) {
-  footer { background-color: blue;}
-}
+/* end of Footer styles */
+
 
 @media screen and (min-width: 800px) {
   section {
@@ -95,12 +95,10 @@ footer {
   .copy, .socialMedia, .contact {
     flex:1;
   }
-  .copt {
+  .copy {
     text-align:left;
   }
   .contact {
     text-align: right;
   }
 }
-
-/* end of Footer styles */
